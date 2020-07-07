@@ -297,7 +297,7 @@
     "semver-diff": "^2.1.0",
     "send": "^0.16.2",
     "set-blocking": "^2.0.0",
-    "set-value": "^2.0.0",
+    "set-value": "^2.0.1",
     "setprototypeof": "^1.1.0",
     "object.getownpropertydescriptors": "^2.1.0",
     "shebang-command": "^1.2.0",
