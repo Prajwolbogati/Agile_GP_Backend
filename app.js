@@ -17,7 +17,8 @@ const testurl = 'mongodb://localhost:27017/test_jobArtist';
 const url = 'mongodb://localhost:27017/Artist_Hub';
 const connect = mongoose.connect(url, {
     useNewUrlParser: true,
-    useCreateIndex: true
+    useCreateIndex: true,
+    useUnifiedTopology: true
 });
 
 connect.then((db) => {
@@ -28,8 +29,11 @@ connect.then((db) => {
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var postRouter = require('./routes/post');
+var uploadRouter = require('./routes/uploads');
+var CvRouter = require('./routes/cv');
 var EventPostsRouter = require('./routes/EventPosts');
 var eventorganizerRouter = require('./routes/eventorganizer');
+var applyRouter = require('./routes/apply');
 var artistsRouter = require('./routes/artists');
 var userRouter = require('./routes/user');
 var app = express();
@@ -84,8 +88,11 @@ app.use('/users', usersRouter);
 // app.use(auth);
 app.use('/eventorganizer', eventorganizerRouter);
 app.use('/artists', artistsRouter);
+app.use('/uploads', uploadRouter);
+app.use('/cvupload', CvRouter);
 app.use('/post', postRouter);
 app.use('/EventPosts', EventPostsRouter);
 app.use('/user', userRouter);
+app.use('/apply', applyRouter);
 
 module.exports = app;
