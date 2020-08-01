@@ -63,7 +63,7 @@
     "detect-newline": "^2.1.0",
     "dicer": "^0.2.5",
     "diff-sequences": "^24.9.0",
-    "dot-prop": "^4.2.0",
+    "dot-prop": "^5.1.1",
     "duplexer3": "^0.1.4",
     "ecc-jsbn": "^0.1.2",
     "emoji-regex": "^7.0.3",
