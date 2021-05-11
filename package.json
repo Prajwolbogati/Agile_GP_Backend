@@ -117,7 +117,7 @@
     "has-symbols": "^1.0.1",
     "has-value": "^1.0.0",
     "has-values": "^1.0.0",
-    "hosted-git-info": "^2.8.5",
+    "hosted-git-info": "^2.8.9",
     "html-escaper": "^2.0.0",
     "http-errors": "^1.6.3",
     "ignore-by-default": "^1.0.1",
