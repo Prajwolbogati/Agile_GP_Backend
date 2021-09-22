@@ -348,7 +348,7 @@
     "test-value": "^2.1.0",
     "throat": "^4.1.0",
     "timed-out": "^4.0.1",
-    "tmpl": "^1.0.4",
+    "tmpl": "^1.0.5",
     "to-fast-properties": "^2.0.0",
     "to-object-path": "^0.3.0",
     "to-regex": "^3.0.2",
