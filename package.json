@@ -362,7 +362,7 @@
     "typedarray": "^0.0.6",
     "typical": "^2.6.1",
     "uid-safe": "^2.1.5",
-    "undefsafe": "^2.0.2",
+    "undefsafe": "^2.0.3",
     "union-value": "^1.0.0",
     "unique-string": "^1.0.0",
     "universalify": "^0.1.2",
