@@ -7,7 +7,7 @@
     "ansi-align": "^2.0.0",
     "ansi-styles": "^3.2.1",
     "array-back": "^1.0.4",
-    "async": "^2.6.2",
+    "async": "^2.6.4",
     "babel-plugin-jest-hoist": "^24.9.0",
     "babel-preset-jest": "^24.9.0",
     "basic-auth": "^2.0.1",
