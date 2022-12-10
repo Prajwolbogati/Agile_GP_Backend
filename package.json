@@ -77,7 +77,7 @@
     "esutils": "^2.0.3",
     "exec-sh": "^0.3.4",
     "exit": "^0.1.2",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-session": "^1.17.1",
     "extend": "^3.0.2",
     "extend-shallow": "^3.0.2",
